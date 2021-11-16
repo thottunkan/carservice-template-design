@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style/style.css">
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit-icons.min.js"></script>
+</head>
+<header>
+    <div class="uk-position-relative " >
+        <img src="images/light.jpg" alt="">
+        <div class="uk-position-top">
+            <nav class="uk-navbar-container uk-navbar-transparent"  uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav nav-light;">
+                        <li class="uk-active"><a href="#">Active</a></li>
+                        <li><a href="#" style="color: white;">Item</a></li>
+                        <li>
+                            <a href="#" style="color: white;">Parent</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-active"><a href="#">Active</a></li>
+                                    <li><a href="#">Item</a></li>
+                                    <li class="uk-nav-header">Header</li>
+                                    <li><a href="#">Item</a></li>
+                                    <li><a href="#">Item</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#">Item</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+</header>
+<body uk-img>
+    <div class="blur" style=" padding: 100px;margin: auto;">
+            <h2 style="color: white;">Login</h2>
+            <form action="" method="post" >
+                <div class="uk-margin">
+                    <input class="uk-input uk-form-width-large"  type="text" placeholder="username">
+                </div>
+                <div class="uk-margin">
+                    <input class="uk-input uk-form-width-large" type="password" placeholder="password">
+                </div>
+                <input type="submit" value="Login" class="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom"></input>
+            </form>
+    </div>
+</body>
+</html>

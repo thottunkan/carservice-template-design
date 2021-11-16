@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanic </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit-icons.min.js"></script>
+</head>
+<header>
+    <div class="uk-position-relative ">
+        <img src="images/light.jpg" alt="">
+        <div class="uk-position-top">
+            <nav style="background-color: purple;" class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav nav-light;">
+                        <li class="uk-active"><a href="#">Active</a></li>
+                        <li><a href="#" style="color: white;">Item</a></li>
+                        <li>
+                            <a href="#" style="color: white;">Console</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-nav-header"><a href="#">Admin</a></li>
+                                    <li><a href="dashboard.html">Admin Dashboard</a></li>
+                                    <li class="uk-nav-header">Mechanic</li>
+                                    <li><a href="mechanicDetails.html">Mechanic Details</a></li>
+                                    <li><a href="pendingreq.html">Allocate Job</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#">Item</a></li>
+                                    <li class="uk-nav-header">Customer</li>
+                                    <li><a href="customerDetails.html">customer details</a></li>
+                                    <li><a href="#">Item</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#">Item</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+</header>
+
+<body>
+    <center>
+        <div class="uk-container" style="margin: auto;margin-top: 100px;">
+            <h1>Mechanic Details</h1><br><br>
+            <div class="uk-overflow-auto">
+                <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">
+                    <thead>
+                        <tr>
+                            <th class="uk-table-shrink"></th>
+                            <th class="uk-table-shrink">image</th>
+                            <th class="uk-table-expand">Name</th>
+                            <th class="uk-width-small">Email</th>
+                            <th class="uk-table-shrink uk-text-nowrap">Phone no</th>
+                            <th class="uk-table-shrink uk-text-nowrap">Date of Join</th>
+                            <th class="uk-table-shrink uk-text-nowrap">Salary</th>
+                            <th class="uk-table-shrink uk-text-nowrap">Department</th>
+                            <th class="uk-table-shrink uk-text-nowrap">Address</th>
+                            <th class="uk-table-shrink uk-text-nowrap">Edit/Update</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input class="uk-checkbox" type="checkbox"></td>
+                            <td><img class="uk-preserve-width uk-border-circle" src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/worker.png " width="40" alt=""></td>
+                            <td class="uk-table-link">
+                                <a class="uk-link-reset" href="">Mechanic name 1</a>
+                            </td>
+                            <td class="uk-text-truncate">email</td>
+                            <td class="uk-text-nowrap">phone</td>
+                            <td class="uk-text-nowrap">Tuesday 16 November 2021 </td>
+                            <td class="uk-text-nowrap">35000</td>
+                            <td class="uk-text-nowrap">Body</td>
+                            <td class="uk-text-nowrap">address</td>
+                            <td><button class="uk-button uk-button-primary" style="background-color: purple;">Edit</button></td>
+
+                        </tr>
+                        <tr>
+                            <td><input class="uk-checkbox" type="checkbox"></td>
+                            <td><img class="uk-preserve-width uk-border-circle" src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/worker.png " width="40" alt=""></td>
+                            <td class="uk-table-link">
+                                <a class="uk-link-reset" href="">Mechanic name 2</a>
+                            </td>
+                            <td class="uk-text-truncate">email</td>
+                            <td class="uk-text-nowrap">phone</td>
+                            <td class="uk-text-nowrap">Tuesday 16 November 2021 </td>
+                            <td class="uk-text-nowrap">35000</td>
+                            <td class="uk-text-nowrap">Lights</td>
+                            <td class="uk-text-nowrap">address</td>
+                            <td><button class="uk-button uk-button-primary" style="background-color: purple;">Edit</button></td>
+
+                        </tr>
+                        <tr>
+                            <td><input class="uk-checkbox" type="checkbox"></td>
+                            <td><img class="uk-preserve-width uk-border-circle" src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/worker.png " width="40" alt=""></td>
+                            <td class="uk-table-link">
+                                <a class="uk-link-reset" href="">Mechanic name 3</a>
+                            </td>
+                            <td class="uk-text-truncate">email</td>
+                            <td class="uk-text-nowrap">phone</td>
+                            <td class="uk-text-nowrap">Tuesday 16 November 2021 </td>
+                            <td class="uk-text-nowrap">35000</td>
+                            <td class="uk-text-nowrap">Engine</td>
+                            <td class="uk-text-nowrap">address</td>
+                            <td><button class="uk-button uk-button-primary" style="background-color: purple;">Edit</button></td>
+
+                        </tr>
+                        <tr>
+                            <td><input class="uk-checkbox" type="checkbox"></td>
+                            <td><img class="uk-preserve-width uk-border-circle" src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/worker.png " width="40" alt=""></td>
+                            <td class="uk-table-link">
+                                <a class="uk-link-reset" href="">Mechanic name 4</a>
+                            </td>
+                            <td class="uk-text-truncate">email</td>
+                            <td class="uk-text-nowrap">phone</td>
+                            <td class="uk-text-nowrap">Tuesday 16 November 2021 </td>
+                            <td class="uk-text-nowrap">35000</td>
+                            <td class="uk-text-nowrap">Wheel</td>
+                            <td class="uk-text-nowrap">address</td>
+                            <td><button class="uk-button uk-button-primary" style="background-color: purple;">Edit</button></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>

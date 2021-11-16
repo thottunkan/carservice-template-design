@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.2/dist/js/uikit-icons.min.js"></script>
+</head>
+
+<header>
+    <div class="uk-position-relative ">
+        <img src="images/light.jpg" alt="">
+        <div class="uk-position-top">
+            <nav style="background-color: purple;" class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav nav-light;">
+                        <li class="uk-active"><a href="#">Active</a></li>
+                        <li><a href="#" style="color: white;">Item</a></li>
+                        <li>
+                            <a href="#" style="color: white;">Console</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-nav-header"><a href="#">Admin</a></li>
+                                    <li><a href="dashboard.html">Admin Dashboard</a></li>
+                                    <li class="uk-nav-header">Mechanic</li>
+                                    <li><a href="mechanicDetails.html">Mechanic Details</a></li>
+                                    <li><a href="pendingreq.html">Allocate Job</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#">Item</a></li>
+                                    <li class="uk-nav-header">Customer</li>
+                                    <li><a href="customerDetails.html">customer details</a></li>
+                                    <li><a href="#">Item</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#">Item</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+</header>
+
+<body>
+    <center>
+        <div class="ul-container" style="align-items: center;justify-content: center;height: 90vh;display: flex;">
+            <div >
+                <table>
+                    <tr style="display: block;">
+                        <td
+                            class="hovereffect"
+                            style="width: 300px; height: 100px;background-color: purple; color: white;text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bolder;font-size: large;border-radius: 6px;">
+                            <a style="color: white;text-decoration: none;" href="mechanicDetails.html">Mechaic Details</a>
+                        </td>
+                        <td
+                            style="width: 300px; height: 100px;background-color: purple; color: white;text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bolder;font-size: large;border-radius: 6px;">
+                            <a style="color: white; text-decoration: none;" href="customerDetails.html">Customer Details</a>
+                        </td>
+                    </tr>
+                    <tr style="display: block;">
+                        <td
+                            style="width: 300px; height: 100px;background-color: purple; color: white;text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bolder;font-size: large;border-radius: 6px;">
+                            <a style="text-decoration: none;color: white;">Service Details</a>
+                        </td>
+                        <td
+                            style="width: 300px; height: 100px;background-color: purple; color: white;text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bolder;font-size: large;border-radius: 6px;">
+                            <a style="text-decoration: none;color: white;">Pending Job Requests</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </center>
+</body>
+
+</html>

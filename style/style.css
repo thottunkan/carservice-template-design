@@ -1,0 +1,18 @@
+body{
+    top: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    object-fit: contain;
+    background-image: url("https://us.123rf.com/450wm/wavebreakmediamicro/wavebreakmediamicro1502/wavebreakmediamicro150202274/36349715-mechanic-using-tablet-to-fix-car-at-the-repair-garage.jpg?ver=6");
+    
+}
+.blur{
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(20px) saturate(120%) contrast(200%);
+    border-radius: 10px;
+    filter: blur(.5px);
+   
+}
